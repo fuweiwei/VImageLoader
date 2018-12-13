@@ -1,8 +1,10 @@
 package com.veer.vimage;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
+
+import com.veer.vimageloader.VImageUtils;
 
 public class MainActivity extends AppCompatActivity {
     ImageView imageView;

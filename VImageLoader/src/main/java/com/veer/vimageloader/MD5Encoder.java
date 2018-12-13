@@ -1,4 +1,4 @@
-package com.veer.vimage;
+package com.veer.vimageloader;
 
 import java.security.MessageDigest;
 

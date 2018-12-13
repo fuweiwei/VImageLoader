@@ -1,4 +1,4 @@
-package com.veer.vimage;
+package com.veer.vimageloader;
 
 import android.graphics.Bitmap;
 import android.util.Log;
@@ -16,7 +16,7 @@ public class VImageUtils {
     public static void disPlay(ImageView ivPic, String url) {
         Bitmap bitmap;
         //内存缓存
-        bitmap=MemoryCacheUtils.getInstance().getBitmapFromMemory(url);
+        bitmap= MemoryCacheUtils.getInstance().getBitmapFromMemory(url);
         if (bitmap!=null){
             ivPic.setImageBitmap(bitmap);
             Log.d(TAG,"从内存获取图片啦.....");
