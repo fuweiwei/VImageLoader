@@ -11,8 +11,8 @@ import android.widget.ImageView;
  * @email 276412667@qq.com
  * @date 18/12/11
  */
-public class VImageUtils {
-    private static final String TAG = "VImageUtils";
+public class VImageLoader {
+    private static final String TAG = "VImageLoader";
     public static void disPlay(ImageView ivPic, String url) {
         Bitmap bitmap;
         //内存缓存

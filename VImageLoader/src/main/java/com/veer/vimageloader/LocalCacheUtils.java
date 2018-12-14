@@ -16,7 +16,7 @@ import java.io.FileOutputStream;
  * @date 18/12/11
  */
 public class LocalCacheUtils {
-    private static final String CACHE_PATH = Environment.getExternalStorageDirectory().getAbsolutePath() + "/VImageUtils";
+    private static final String CACHE_PATH = Environment.getExternalStorageDirectory().getAbsolutePath() + "/VImageLoader";
     private static  LocalCacheUtils mInstance;
     private LocalCacheUtils(){
 
