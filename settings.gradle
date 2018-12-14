@@ -1,1 +1,1 @@
-include ':app', ':VImageLoader'
+include ':app', ':VImageLoader', ':vimageloader2'

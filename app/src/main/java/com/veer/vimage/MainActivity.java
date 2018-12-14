@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         imageView = (ImageView) findViewById(R.id.iv);
         VImageUtils.disPlay(imageView,"http://5b0988e595225.cdn.sohucs.com/images/20181112/5e81aab009f34aac85ef2fd7bb4a0092.jpeg");
+
     }
 }
