@@ -1,7 +1,7 @@
 # VImageLoader
 图片加载框架
 
-使用
+#使用
 1、project build.gradle下添加：
 maven { url 'https://jitpack.io' }
 
